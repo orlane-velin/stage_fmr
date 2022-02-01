@@ -81,7 +81,7 @@ knitr::include_graphics("images/récif.jpg")
 ```
 
 
-</div>
+</div >
 
 
 ### Matériel et Méthodes
