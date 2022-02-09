@@ -10,6 +10,7 @@ output:
   html_document: default
   pdf_document: default
 bibliography: rapport.bib
+csl: marine-ecology-progress-series.csl 
 css: styles.css
 number_sections: yes
 ---
@@ -20,7 +21,7 @@ library(knitr)
 
 
 <div style="text-align: justify">
-### Table des matières
+# Table des matières
 1. [Introduction](#introduction)
 
     [I- Changement global et impacte sur récifs coralliens](#partieI)
@@ -35,9 +36,13 @@ library(knitr)
 
 
 
-### Introduction <a name="introduction"></a>
+# Introduction <a name="introduction"></a>
 
 #### I- Changement global et impacte sur récifs coralliens <a name="partieI"></a>
+
+
+https://delladata.fr/tutoriel-personnalisez-word-rmarkdown/
+
 
 Depuis les années 50, un changement global du climat s’effectue à l’échelle de la planète. L’augmentation de l’activité anthropique est en effet responsable d’une importante émission de gaz à effet de serre dans l’atmosphère. On estime que 33% de ces gazs seraient absorbés par les océans chaque année [@woolf_key_2019]. Responsable d’une acidification des océans, l’augmentation du CO2 dissout et de l’acide carbonique aurait provoqué une baisse de 0,1 du pH des eaux de surface depuis l’ère industrielle. Les tendances à cette diminution varieraient entre 0,0014 et 0,0024 par an [@diouf_volet_2016]. Dans une étude menée sur les eaux Nord-Ouest de la Méditerranée en 2017, des chercheurs ont montré, que la modification du pH est liée à 60% à la quantité de CO2 absorbée et à 40% à la température de l’eau [@kapsenberg_coastal_2017]. Or, avec le réchauffement atmosphérique, un renforcement de l’effet de serre naturel conduit à une hausse de la température moyenne de l’eau. Dans un rapport de 2021, le GIEC (Groupe intergouvernemental d'experts sur l'évolution du climat) prévoit une augmentation de la température moyenne de l’air de 1,5 °C d’ici 2030 [@coste_les_2021], entraînant un réchauffement encore plus important de la surface des océans. 
 
@@ -80,13 +85,13 @@ En parallèle, le même projet sera conduit sur des coraux provenant des bassins
 Après la modélisation en 3D des boutures (voir [Matériel et méthodes](#Matériel et méthodes)), la photogrammétrie permettera également d’étudier leur croissance au cours de la durée de l'étude. Dans ce contexte, il est pertinent d'utiliser cet outil de façon efficace et reproductible, afin de reconstruire une image 3D des boutures de coraux rapidement visible par les enfants. L’idée est ainsi de chercher à s’acquitter du temps nécessaire au processus manuel de traitement des images sur ordinateur. La prolématique de cette étude est la suivante : Jusqu'où peut-on conduire l'automatisation de la reconstruction 3D sur Metashape Pro ? 
 
 ```{r echo = FALSE, out.width = "60%", fig.align = 'center', fig.cap = "Figure 1 : Exemple de récif artificiel en béton"}
-knitr::include_graphics("images/recif.jpg")
+knitr::include_graphics("../images/recif.jpg")
 
 ```
 
 
 
-### Matériel et méthodes <a name="Matériel et méthodes"></a>
+# Matériel et méthodes <a name="Matériel et méthodes"></a>
 
 1) L'atelier pédagogique
 
@@ -102,7 +107,7 @@ Les ateliers ont été menés en décembre 2021 et un renouvellement est prévu 
 La reconstruction en 3 dimensions des boutures de coraux s’effectue en quelques grandes étapes avec Agisoft Metashape Professional version 1.5.1 (logiciel) ([Annexe 1](#Annexe 1)). Après le chargement de la série de photos, une première étape consiste à estimer leur qualité. Dans le protocole de Lange et Perry, une qualité est inférieure à 0,3 n’est pas suffisante pour que les photos soient utilisées pour la modélisation [@lange_quick_2020]. Celles-ci sont alors supprimées et les autres sont gardées afin de procéder à “l’alignement”. Ce traitement consiste à faire correspondre les images les unes avec les autres en les suturant avec leurs points semblables, détectés par le logiciel ou déterminés à la main ([Figure 2](#fig:Figure 2)). Il s’agit souvent de points remarquables comme une petite tâche isolée par exemple. Le logiciel détecte ainsi quelles images se recouvrent partiellement. Le mode “Générique” est appliqué lorsque, comme ici, les photos ne sont pas géoréférencées. 
 
 ```{r echo = FALSE, out.width = "60%", fig.align = 'center', fig.cap = "Figure 2 : Ajoût manuel d'un point d'alignement sur Metashape Pro"}
-knitr::include_graphics("images/metashape.jpg")
+knitr::include_graphics("../images/metashape.jpg")
 
 ```
 
@@ -120,18 +125,18 @@ Afin d’estimer la précision de la modélisation 3D, on génère six modèles 
 
 </div >
 
-### Annexes
+# Annexes
 
 <center>Annexe 1 <a name="Annexe 1"></a></center>
 ```{r echo = FALSE, out.width = "60%", fig.align = 'center', fig.cap = "Protole de reconstruction 3D sur Metashape Pro (Lange et Perry 2020)" }
-knitr::include_graphics("images/protocol.jpg")
+knitr::include_graphics("../images/protocol.jpg")
 
 ```
 
 <center>Annexe 2 <a name="Annexe 2"></a></center>
 ```{r echo = FALSE, out.width = "60%", fig.align = 'center', fig.cap = "Installatin d'une bouture de *Slylophora sp.* sur son support" }
-knitr::include_graphics("images/bouture.jpg")
+knitr::include_graphics("../images/bouture.jpg")
 
 ```
 
-### Références
+# Références
