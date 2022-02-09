@@ -7,8 +7,8 @@ evaluation: Rapport de stage intermédiaire
 date: 11/16/2021
 anac: 2021-2022
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 bibliography: rapport.bib
 css: styles.css
 number_sections: yes
@@ -91,7 +91,7 @@ knitr::include_graphics("images/recif.jpg")
 1) L'atelier pédagogique
 
 Une première phase du programme pédagogique a été menée, à Paris, avec les écoliers de primaire de Bondy. Deux ateliers ont été mis en place pour l'étude : un atelier de bouturage et un atelier de prise de photos. 
-    Dans un premier temps, les enfants ont fragmenté une colonie de *Slylophora sp.* à l'aide d'une pince coupante pour obtenir 12 boutures de corail branchu. Celles-ci ont ensuite été collées sur des plots en céramique blanc, utilisés comme support. Entre chaque coupe, la colonie est gardée dans un bassin contenant l'eau de son aquarium, afin de ne pas induire un stress supplémentaire qui pourrait compromettre la survie des fragments.
+    Dans un premier temps, les enfants ont fragmenté une colonie de *Slylophora sp.* à l'aide d'une pince coupante pour obtenir 12 boutures de corail branchu. Celles-ci ont ensuite été collées sur des plots en céramique blanc, utilisés comme support ([Annexe 2](#Annexe 2)). Entre chaque coupe, la colonie est gardée dans un bassin contenant l'eau de son aquarium, afin de ne pas induire un stress supplémentaire qui pourrait compromettre la survie des fragments.
     Un système de studio portatif est conçu de sorte à réaliser une prise de photos exploitables pour le traitement photogrammétrique. Un plateau tournant *cablematic*, dont l'angle de rotation est commendable manuellement grâce à une télécommande, est placé au centre d'une chambre ouverte en toile blanche *BeMatik*, réfléchissant la lumière. De part et d'autre, sont installées les deux lampes associées au kit de studio photo *BeMatik* avec leur ampoules de 35W. Un appareil photo numérique Sony RX 100 IV est posé sur un trépier devant l'ouverture de la chambre, à une distance de .... cm du plateau *cablematic*. 
     Les boutures sont successivement photographiées sous différents angles. Le pied du plot en céramique est imbriqué dans un trou d'un morceau de grille en plastique pour être maintenu au centre du plateau tournant. On définit un angle de rotation de ...° sur la télécommande. ... photos du fragment sont alors prises à distance, avec l'appareil commandé par un smartphone via une connection wifi. (Quelques images sont aussi prises du dessus de la bouture?). Les coraux sont replacés dans un bassin, une fois que la prise de photos est effectuée. 
 Les ateliers ont été menés en décembre 2021 et un renouvellement est prévu pour le mois de mai 2022, afin d'effectuer le suivi de la croissance des branches de *Slylophora sp.*. 
@@ -125,6 +125,12 @@ Afin d’estimer la précision de la modélisation 3D, on génère six modèles 
 <center>Annexe 1 <a name="Annexe 1"></a></center>
 ```{r echo = FALSE, out.width = "60%", fig.align = 'center', fig.cap = "Protole de reconstruction 3D sur Metashape Pro (Lange et Perry 2020)" }
 knitr::include_graphics("images/protocol.jpg")
+
+```
+
+<center>Annexe 2 <a name="Annexe 2"></a></center>
+```{r echo = FALSE, out.width = "60%", fig.align = 'center', fig.cap = "Installatin d'une bouture de *Slylophora sp.* sur son support" }
+knitr::include_graphics("images/bouture.jpg")
 
 ```
 
