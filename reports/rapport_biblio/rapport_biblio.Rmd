@@ -88,11 +88,11 @@ knitr::include_graphics("../images/tableau1.jpg")
 
 ### 1) L'atelier pédagogique<a name="partie1"></a>
 
-  Une première phase du programme pédagogique a été menée, à Paris, avec les écoliers de primaire de Bondy. Deux ateliers ont été mis en place pour l'étude : un atelier de bouturage et un atelier de prise de photos. Dans un premier temps, les enfants ont fragmenté une colonie de *Slylophora sp.* à l'aide d'une pince coupante pour obtenir 12 boutures de corail branchu. Celles-ci ont ensuite été collées sur des plots en céramique blanc, utilisés comme support ([Annexe 3](#Annexe 3)). Entre chaque coupe, la colonie est gardée dans un bassin contenant l'eau de son aquarium, afin de ne pas induire un stress supplémentaire qui pourrait compromettre la survie des fragments. Un système de studio portatif est conçu de sorte à réaliser une prise de photos exploitables pour le traitement photogrammétrique. Un appareil numérique Sony RX 100 IV est posé sur un trépier devant un plateau tournant *cablematic*, dont l’angle de rotation est réglé manuellement à 15° sur une télécommande. Les boutures sont maintenues fixées au centre du plateau et successivement photographiées sous différents angles, à une distance comprise entre 14 et 16 cm de l’objectif de l’appareil. 24 photos du fragment sont alors prises à distance, avec l’appareil commandé par un smartphone via une connexion wifi. Les coraux sont replacés dans un bassin, une fois que la prise de photos est effectuée. Les ateliers ont été menés en décembre 2021 et un renouvellement est prévu pour le mois de mai 2022, afin d’effectuer le suivi de la croissance des branches de *Slylophora sp.*.
+  Une première phase du programme pédagogique a été menée, à Paris, avec les écoliers de primaire de Bondy. Deux ateliers ont été mis en place pour l'étude : un atelier de bouturage et un atelier de prise de photos. Dans un premier temps, les enfants ont fragmenté une colonie de *Slylophora sp.* à l'aide d'une pince coupante pour obtenir 12 boutures de corail branchu ([Annexe 2](#Annexe 2)). Celles-ci ont ensuite été collées sur des plots en céramique blanc, utilisés comme support. Entre chaque coupe, la colonie est gardée dans un bassin contenant l'eau de son aquarium, afin de ne pas induire un stress supplémentaire qui pourrait compromettre la survie des fragments. Un système de studio portatif est conçu de sorte à réaliser une prise de photos exploitables pour le traitement photogrammétrique ([Annexe 3](#Annexe 3)). Un appareil numérique Sony RX 100 IV est posé sur un trépier devant un plateau tournant *cablematic*, dont l’angle de rotation est réglé manuellement à 15° sur une télécommande. L'éclairage se fait grâce à une lampe à réflecteur diffusant une lumière blanche avec son ampoule basse consommatioon de  35W. Les boutures sont maintenues fixées au centre du plateau et successivement photographiées sous différents angles, à une distance comprise entre 14 et 16 cm de l’objectif de l’appareil. 24 photos du fragment sont alors prises à distance, avec l’appareil commandé par un smartphone via une connexion wifi. Les coraux sont replacés dans un bassin, une fois que la prise de photos est effectuée. Les ateliers ont été menés en décembre 2021 et un renouvellement est prévu pour le mois de mai 2022, afin d’effectuer le suivi de la croissance des branches de *Slylophora sp.*.
 
 ### 2) Reconstruction 3D<a name="partie2"></a>
 
-  La reconstruction en 3 dimensions des boutures de coraux s’effectue en quelques grandes étapes avec Agisoft Metashape Professional version 1.5.1 (logiciel) ([Annexe 1](#Annexe 1)). Après le chargement de la série de photos, une première étape consiste à estimer leur qualité. Dans le protocole de Lange et Perry, une qualité inférieure à 0,3 n’est pas suffisante pour que les photos soient utilisées pour la modélisation [@lange_quick_2020]. Celles-ci sont alors supprimées et les autres sont gardées afin de procéder à “l’alignement”. Ce traitement consiste à faire se recouvrir les images les unes avec les autres en les suturant avec leurs points semblables, détectés par le logiciel ou déterminés à la main ([Annexe 2](#Annexe 2)). Il s’agit souvent de points remarquables comme une petite tâche isolée par exemple. Cette étape du traitement est la seule sur laquelle une action peut être effectuée manuellement afin d’optimiser le rendu de la reconstruction 3D. Les erreurs potentielles dans la reconstruction sont réduites par la suppression des points au-dessus/en dessous de certains niveaux d’incertitude et de précision. Metashape permet ensuite la création d’un nuage de points dense et la mise à l’échelle est faite manuellement en associant des marqueurs aux points d’une règle, visible sur la photo. Afin d’estimer la précision de la modélisation 3D, on génère six modèles supplémentaires pour chacune des boutures, en retirant au hasard, 10% de l’ensemble des photos (d'après @ferrari_3d_2017). La précision (en mm) est calculée comme la distance moyenne entre chacun des 6 nuages de points, construits et alignés sur celui d’origine dans le logiciel CloudCompare version 2.10.2. 
+  La reconstruction en 3 dimensions des boutures de coraux s’effectue en quelques grandes étapes avec Agisoft Metashape Professional version 1.5.1 (logiciel) ([Annexe 1](#Annexe 1)). Après le chargement de la série de photos, une première étape consiste à estimer leur qualité. Dans le protocole de Lange et Perry, une qualité inférieure à 0,3 n’est pas suffisante pour que les photos soient utilisées pour la modélisation [@lange_quick_2020]. Celles-ci sont alors supprimées et les autres sont gardées afin de procéder à “l’alignement”. Ce traitement consiste à faire se recouvrir les images les unes avec les autres en les suturant avec leurs points semblables, détectés par le logiciel ou déterminés à la main ([Annexe 4](#Annexe 4)). Il s’agit souvent de points remarquables comme une petite tâche isolée par exemple. Cette étape du traitement est la seule sur laquelle une action peut être effectuée manuellement afin d’optimiser le rendu de la reconstruction 3D. Les erreurs potentielles dans la reconstruction sont réduites par la suppression des points au-dessus/en dessous de certains niveaux d’incertitude et de précision. Metashape permet ensuite la création d’un nuage de points dense et la mise à l’échelle est faite manuellement en associant des marqueurs aux points d’une règle, visible sur la photo. Afin d’estimer la précision de la modélisation 3D, on génère six modèles supplémentaires pour chacune des boutures, en retirant au hasard, 10% de l’ensemble des photos (d'après @ferrari_3d_2017). La précision (en mm) est calculée comme la distance moyenne entre chacun des 6 nuages de points, construits et alignés sur celui d’origine dans le logiciel CloudCompare version 2.10.2. 
  
 ### 3) Automatisation avec R studio<a name="partie3"></a>
 
@@ -109,15 +109,25 @@ knitr::include_graphics("../images/protocol.jpg")
 
 ```
 
-<center>Annexe 2 : Ajoût manuel d'un point d'alignement sur Metashape Pro<a name="Annexe 2"></a><center>
+<center>Annexe 2 : Bouturage d'une colonie de *Slylophora sp.* par les élèves<a name="Annexe 2"></a><center>
 ```{r echo = FALSE, out.width = "60%", fig.align = 'center'}
-knitr::include_graphics("../images/metashape.jpg")
+knitr::include_graphics("../images/bouturage.jpg")
 
 ```
 
-<center>Annexe 3 : Installation d'une bouture de *Slylophora sp.* sur son support<a name="Annexe 3"></a><center>
+<center>Annexe 3 : Installation du studio de prise de photo des boutures de coraux<a name="Annexe 3"></a><center>
+```{r echo = FALSE, out.width = "60%", fig.align = 'center'}
+knitr::include_graphics("../images/dispositif.jpg")
+
+```
 ```{r echo = FALSE, out.width = "60%", fig.align = 'center'}
 knitr::include_graphics("../images/bouture.jpg")
+
+```
+
+<center>Annexe 4 : Ajoût manuel d'un point d'alignement sur Metashape Pro<a name="Annexe 4"></a><center>
+```{r echo = FALSE, out.width = "60%", fig.align = 'center'}
+knitr::include_graphics("../images/metashape.jpg")
 
 ```
 
