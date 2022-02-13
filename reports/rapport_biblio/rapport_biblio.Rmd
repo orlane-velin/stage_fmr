@@ -25,9 +25,9 @@ library(knitr)
 # Table des matières
 1. [Introduction](#introduction)
 
-    [I- Enjeux socio-écologique lié aux écosystèmes coralliens global](#partieI)
+    [I- Enjeux socio-écologiques liés aux écosystèmes coralliens](#partieI)
 
-    [II- Changement global et impacte sur récifs coralliens](#partieII)
+    [II- Changement global et impacts sur les récifs coralliens](#partieII)
     
     [III- Les techniques de mesure de la croissance corallienne](#partieIII)
     
@@ -47,13 +47,13 @@ library(knitr)
 
 # Introduction <a name="introduction"></a>
 
-## I- Enjeux socio-écologique lié aux écosystèmes coralliens global <a name="partieI"></a>
+## I- Enjeux socio-écologiques liés aux écosystèmes coralliens <a name="partieI"></a>
 
   Les récifs coralliens offrent aux populations humaines des milieux insulaires, une diversité de services, essentiels au maintien de l’économie du territoire. C'est en servant au secteur culturel que la valeur économique de ces écosystèmes est la plus importante [@wells_front_2006]. Leur beauté attire chaque année de nombreux voyageurs, et motive l’apparition d’un tourisme balnéaire associé à de nombreuses activités côtières : plongée, promenade en mer, école de surf et de voiles etc. La seconde source d’apports économiques, générée par les récifs, repose sur leur rôle de barrières de protection du littoral, de la houle et des ondes de tempêtes. Ils réduisent ainsi l’érosion des plages et fournissent des zones calmes pour la création des ports et la pratique de certaines activités nautiques (jet ski, voile, paddle etc). La richesse des récifs en ressources marines profite aux activités de pêches commerciales ou de subsidence (le rapport entre l’une et l’autre est variable selon les localités et dépend du niveau de développement du territoire). Pour certaines populations, les revenus économiques dépendent exclusivement de ces ressources et de leur diversité. A échelle mondiale. La valeur totale des récifs est estimée à 100 000$ à 600 000$ par kilomètre carré par an [@wells_front_2006]. Les chiffres varient considérablement au niveau national, ainsi que la part relative des différents services offerts par les écosystèmes.
 
   Avec les services qu’offrent les récifs pour les hommes, on ne doute pas des conséquences économiques et sociétales que pourrait entraîner leur disparition. Ces écosystèmes font l’objet d’un intérêt croissant auprès de la communauté internationale. On cherche à les inclure dans l’idée de la résilience d’un système socio-écologique, considérant les évolutions de l’environnement et de nos sociétés comme un ensemble  [@trebuil_resilience_2014]. Cela revient à réfléchir à comment un tel système pourrait répondre à des perturbations (voir II) tout en assurant la durabilité des usages humains et la conservation de la biodiversité. Dans cette perspective, plusieurs outils de gestion, de conservation et de protection des écosystèmes ont été proposés. Pour le secteur lié à la pêcherie récifale, entre autres, cela se traduit par la mise en place d’Aires Marines Protégées (AMPs), de récifs artificiels, de Dispositifs de Concentration de Poissons (DCP) ou le développement de l’aquaculture [@mahafina_perception_2021]. Parallèlement, afin de maintenir ces efforts et d’assurer leur succès, il est essentiel d’y impliquer les jeunes générations. Des programmes de sensibilisation sont mis en place par différentes structures (ONGs, parcs marins, réserves, aquariums, etc.) dans le but de faire connaître les récifs coralliens et leur fragilité. A terme, l’objectif est que les futures générations se sentent concernées et envisagent de s’impliquer dans la préservation de l’état de santé des écosystèmes.
   
-## II- Changement global et impacte sur récifs coralliens <a name="partieII"></a>
+## II- Changement global et impacts sur les récifs coralliens <a name="partieII"></a>
 
 
   Depuis les années 50, un changement global du climat s’effectue à l’échelle de la planète. L’augmentation de l’activité anthropique est en effet responsable d’une importante émission de gaz à effet de serre dans l’atmosphère. On estime que 33% de ces gazs seraient absorbés par les océans chaque année [@woolf_key_2019]. Responsable d’une acidification des océans, l’augmentation du CO2 dissous et de l’acide carbonique aurait provoqué une baisse de 0,1 du pH des eaux de surface depuis l’ère industrielle. Les tendances à cette diminution varieraient entre 0,0014 et 0,0024 par an [@diouf_volet_2016]. Dans une étude menée sur les eaux Nord-Ouest de la Méditerranée en 2017, des chercheurs ont montré que la modification du pH est liée à 60% à la quantité de CO2 absorbée et à 40% à la température de l’eau [@kapsenberg_coastal_2017]. Or, avec le réchauffement atmosphérique, un renforcement de l’effet de serre naturel conduit à une hausse de la température moyenne de l’eau. Dans un rapport de 2021, le GIEC (Groupe intergouvernemental d'experts sur l'évolution du climat) prévoit une augmentation de la température moyenne de l’air de 1,5 °C d’ici 2030 [@coste_les_2021], entraînant un réchauffement encore plus important de la surface des océans. 
